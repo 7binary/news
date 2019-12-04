@@ -1,0 +1,9 @@
+rest_controller:
+    resource: ../../src/Controller/Rest/
+    type: annotation
+    prefix: /api
+
+admin_controller:
+    resource: ../../src/Controller/Admin
+    type: annotation
+    prefix: /api/admin
